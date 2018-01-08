@@ -1,3 +1,5 @@
+PLANET DATA BULK ACQUISITION
+
 This repository describes ways to acquire Planet satellite data using two (2) versions of the Planet API refered to as the "new" and the "old" ones. Below step-by-step guide how to use these APIs to download bulk data from planet.
 
 There are common steps for both the new and the old API.
@@ -12,5 +14,4 @@ If the intention is to download data filtered by a spatial extent (i.e. AOI), th
 Let's initialize the "new" Planet API in Anaconda:
 
 4.	Authenticating your credentials: go to >start>All programs>Anaconda Prompt and search for the location where the map.geojson is. Say your file is in the directory "planet_data" in D. To go to this directory, type in the command prompt first D: press enter and then type cd planet data. You should now be in D:\planet_data>. If you type the command dir you should see your map.geojson file in this location
-
 
