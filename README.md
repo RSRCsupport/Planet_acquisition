@@ -1,6 +1,6 @@
-# PLANET DATA BULK ACQUISITION
+## PLANET DATA BULK ACQUISITION
 
-## This repository describes ways to acquire Planet satellite data using two (2) versions of the Planet API refered to as the "new" and the "old" ones. Below step-by-step guide how to use these APIs to download bulk data from planet.
+This repository describes ways to acquire Planet satellite data using two (2) versions of the Planet API refered to as the "new" and the "old" ones. Below step-by-step guide how to use these APIs to download bulk data from planet.
 
 There are common steps for both the new and the old API.
 
