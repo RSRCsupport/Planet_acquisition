@@ -13,5 +13,9 @@ If the intention is to download data filtered by a spatial extent (i.e. AOI), th
 
 Let's initialize the "new" Planet API in Anaconda:
 
-4.	Authenticating your credentials: go to >start>All programs>Anaconda Prompt and search for the location where the map.geojson is. Say your file is in the directory "planet_data" in D. To go to this directory, type in the command prompt first D: press enter and then type cd planet data. You should now be in D:\planet_data>. If you type the command dir you should see your map.geojson file in this location
+4.	Authenticating your credentials: 1) search the location where the map.geojeson is. Go to >start>All programs>Anaconda Prompt and say your file is in the directory "planet_data" in D. To go to this directory, type first in the command prompt “D:” press enter and then type “cd planet_data”. You should now be in D:\planet_data>. If you type the command dir you should see your map.geojson file in this location. 
+    2) For authentication type:
+      $ planet init
+      You will be prompted to enter your Email and your password (the same you used to log into the the Planet web site). You should receive a confirmation the API was validated with the message “initialized”.
 
+Now you are ready to search and download your images filtered by items type (i.e. PSOrthoTile, PSScene3Band, PSScene4Band and REOrthoTile), product (e.g. analytic, visual) and by AOI (e.g. using the AOI saved before). Please find the document “Download_Planet_newAPI.text” in the folder “1_new_API_scripts" above and follow steps. 
