@@ -9,7 +9,7 @@ There are common steps for both the new and the old API.
 
 If the intention is to download data filtered by a spatial extent (i.e. AOI), the new API differs slightly from the old one. First let's do it for the new one.
 
-3.	Draw and save a .geojson with geographic extent: Open the folder above "1_new_API_scripts", you will see a PDF with instructions how to draw and save a .geojson file that will be the argument for the APIs. To better read this PDF click on it and press the Download button on the right upper corner. Save the map.geojson file (name as default as "map") in a preferred location. This location will be where all the scripts should be, will touch on this later.
+3.	Draw and save a .geojson with geographic extent: Open the folder above [1_new_API_scripts](1_new_API_scripts/define_AOI.pdf), you will see a PDF with instructions how to draw and save a .geojson file that will be the argument for the APIs. To better read this PDF click on it and press the Download button on the right upper corner. Save the map.geojson file (name as default as "map") in a preferred location. This location will be where all the scripts should be, will touch on this later.
 
 Let's initialize the "new" Planet API in Anaconda:
 
