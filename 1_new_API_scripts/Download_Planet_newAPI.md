@@ -22,7 +22,7 @@ you should receive a confirmation that your Planet API is ready to run:
 Now practical examples how to get images based on different filters:
 
 - For downloading planet scenes images (e.g. PSScene3Band/PSScene4band/PSOrthoTile) within a defined AOI: 
-  - for example to download all PSScenes3Band, analytic, within the AOI previously downloaded from [geojson.io](http://geojson.io/#map=2/20.0/0.0) and place as an example in [here] (https://github.com/RSRCsupport/Planet_acquisition/blob/master/1_new_API_scripts/map.geojson) between dates 1/10/2017 and 30/10/2017 you type this:
+  - for example to download all PSScenes3Band, analytic, within the AOI previously downloaded from [geojson.io](http://geojson.io/#map=2/20.0/0.0) and placed as an example in [map.geojson](https://github.com/RSRCsupport/Planet_acquisition/blob/master/1_new_API_scripts/map.geojson/) between dates 1/10/2017 and 30/10/2017 you type this:
 
 `planet data download --item-type PSScene3band --asset-type analytic --date acquired gt 2017-10-01 --date acquired lt 2017-10-30 --geom map.geojson`
 
