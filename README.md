@@ -5,7 +5,7 @@ This repository describes ways to acquire Planet satellite data using two (2) ve
 There are common steps for both the new and the old API.
 
 1.	Download Anaconda (https://www.anaconda.com/download/): it comes with a nice suit of packages with python distribution. Install the 32 version for python 2.7 as the 64 bit will conflict with your Arcmap distribution. If you are not doing anything with arcpy then get the 64 bit. It's better and include a Jupiter Console
-2.	Install Planet API in Anaconda: go to >start>All programs>Anaconda Prompt and type > pip install planet at the command prompt. You will be prompted to say "y" to complete the installation. This process works better when no proxy is limiting the planet software installation, if this is the case send me an email to rodbio2008@gmail.com
+2.	Install Planet API (new) in Anaconda: go to >start>All programs>Anaconda Prompt and type > `pip install planet` at the command prompt. You will be prompted to say yes `y` to complete the installation. This process works better when no proxy is limiting the planet software installation, if this is the case send me an email to rodbio2008@gmail.com
 
 If the intention is to download data filtered by a spatial extent (i.e. AOI), the new API differs slightly from the old one. First let's do it for the new one.
 
